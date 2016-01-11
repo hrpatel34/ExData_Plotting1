@@ -29,3 +29,5 @@ png(filename="plot2.png", width = 480, height = 480, units = "px")
 with(febdata, plot(DateTime, Global_active_power, type = "l", xlab = "", ylab = histYLable))
 #hist(febdata$Global_active_power,  main=mainLable, xlab = histXLable, col="red")
 dev.off()
+
+rm(febdata)

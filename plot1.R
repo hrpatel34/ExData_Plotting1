@@ -26,5 +26,4 @@ png(filename="plot1.png", width = 480, height = 480, units = "px")
 hist(febdata$Global_active_power,  main=mainLable, xlab = histXLable, col="red")
 dev.off()
 
-
-
+rm(febdata)

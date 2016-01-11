@@ -47,3 +47,5 @@ legend("topright", col = c("black", "red", "blue"),
 
 #hist(febdata$Global_active_power,  main=mainLable, xlab = histXLable, col="red")
 dev.off()
+
+rm(febdata)
