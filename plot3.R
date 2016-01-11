@@ -29,7 +29,7 @@ febdata$Sub_metering_2 <- as.numeric(as.character(febdata$Sub_metering_2))
 febdata$Sub_metering_3 <- as.numeric(as.character(febdata$Sub_metering_3))
 ##Plot the graph
 #mainLable <- "Global Active Power"
-histYLable <- "Energy Sub Metering"
+histYLable <- "Energy sub metering"
 
 png(filename="plot3.png", width = 480, height = 480, units = "px")
 ##Plot blank graph
